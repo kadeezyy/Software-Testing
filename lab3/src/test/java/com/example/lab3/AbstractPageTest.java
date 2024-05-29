@@ -17,8 +17,8 @@ public abstract class AbstractPageTest {
 
     @BeforeAll
     static void setup() {
-//        SELENIUM_JUPITER.addBrowsers(BrowserBuilder.chrome().build());
-        SELENIUM_JUPITER.addBrowsers(BrowserBuilder.firefox().build());
+        SELENIUM_JUPITER.addBrowsers(BrowserBuilder.chrome().build());
+//        SELENIUM_JUPITER.addBrowsers(BrowserBuilder.firefox().build());
     }
 
     public static void initDriver(String url, WebDriver driver) {
